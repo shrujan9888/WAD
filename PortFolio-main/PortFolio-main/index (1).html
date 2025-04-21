@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Shrujan kundgulwar</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top card"
+      
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Shrujan</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#academics">Academics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-skills">My Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"><a class="nav-link" href="#contact">Contact</a></button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Shrujan kundgulwar</span>
+          </h2>
+          <p class="text-muted">
+            I'm third year IT Student at PICT, Pune
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/shrujan.jpg" class="img-fluid" alt="description" style="height: 800px; height: 500px;" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise/academics section starts -->
+    <section class="expertise mt-5" id="academics">
+      <div class="heading text-center">
+        <small>Academics</small>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="content mt-3">
+              <h4>Education</h4>
+              <h3 class="degree">Bachelor of Engineering in Information Technology</h3>
+              <p class="institution">PICT Pune</p>
+              <p class="duration">2022 - 2026</p>
+              <p class="description">Gained knowledge in software development, data structures, machine learning, and web development.</p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="content mt-3">
+              <h3 class="degree">Higher Secondary Education</h3>
+              <p class="institution">sri chaitanya junior college</p>
+              <p class="duration">2020 - 2022</p>
+              <p class="description">Focused on science stream with a strong foundation in mathematics, physics, and computer science.</p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="content mt-3">
+              <h3 class="degree">Secondary Education</h3>
+              <p class="institution">sri chaitanya techno school</p>
+              <p class="year">2020</p>
+              <p class="description">Completed schooling with excellence in academics and extracurricular activities.</p>
+              <a href="" class="link">Read More</a>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="my-skills">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-6" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <br />
+                <span class="text">MERN STACK</span>
+              </div>
+            </div>
+
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div>
+                   <span class="text">C++</span>
+                   <br />
+                   <span class="text">java</span>
+                   <br />
+                   <span class="text">JavaScript</span>
+                   <br />
+                   <span class="text">SQL</span>
+                </div>
+                <br />
+                <span class="text">Programming Languages</span>
+              </div>
+            </div>
+            
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div>
+                   <span class="text">MongoDB</span>
+                   <br />
+                   <span class="text">MySQL</span>
+                </div>
+                <br />
+                <span class="text">DataBase Systems</span>
+              </div>
+            </div>
+
+          </div>
+
+          
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <p class="text-muted">
+              <!-- text to enter -->
+            </p>
+            <p class="text-muted">
+              Committed to stay updated with the latest trends in software development to deliver cutting-edge solutions
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                //href="Entry Level Web Developer "
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Projects</h3>
+      </div>
+
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/expense tacker.png.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Expence tracker</h4>
+                <span class="badge bg-secondary badge-pill">ReactJS</span>
+                <span class="badge bg-secondary badge-pill">frontend</span>
+                <br />
+                <a href="https://github.com/shrujan9888" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/TweetTube.webp" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">YouTube summerizer</h4>
+                <span class="badge bg-secondary badge-pill">frontend</span>
+                <br />
+                <a href="https://github.com/shrujan9888" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="C:\Users\shruj\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 120806.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">StayHub</h4>
+                <span class="badge bg-secondary badge-pill">MERN STACK</span>
+                <br />
+                <a href="https://github.com/Som192004/StayHub" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/Borgave_Logo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">MilkDairy Project</h4>
+                <span class="badge bg-secondary badge-pill">MERN STACK</span>
+                <br />
+                <a href="https://github.com/Som192004/StayHub" class="read-more-btn link">Currently Working</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        <i class="fa fa-bold" aria-hidden="true">StayHub</i> has completely transformed the way I travel! From the easy-to-use platform to the amazing variety of accommodations, it feels like every trip is custom-made for me. My last stay was in a cozy cottage with stunning mountain views, and the host went above and beyond to make me feel at home. The personalized touches, like a welcome basket and local tips, made it an unforgettable experience. I love how StayHub connects me with unique places and incredible people, all while being budget-friendly. Can't wait for my next adventure! ...
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://www.google.com/maps/place/Kokate+boys+hostel/@18.4554881,73.8492199,21z/data=!4m19!1m12!4m11!1m3!2m2!1d73.8507983!2d18.4557026!1m6!1m2!1s0x3bc2eb949d8a310b:0x9b16bd30eed1ea4!2sFV42%2B89F+Icchapurti+Shri+Ganesh+-+Datta+Pratishthan,+shriram+Nagar,+Bharati+Vidyapeeth+Campus,+Dhankawadi,+Pune,+Maharashtra+411046!2m2!1d73.8509271!2d18.4558044!3m5!1s0x3bc2eb0739e1dc07:0x22925b4d0a166d73!8m2!3d18.4554406!4d73.8494697!16s%2Fg%2F11j1chn2lq?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D"><i class="bi bi-geo-alt-fill"></i></a>
+            </div>
+            <div class="col-11">
+              <p>Patang plaza phase 3 , near Icchapurti Temple, Trimurti Chowk, Dhankawadi , Pune</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 8008894100</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://mail.google.com/mail/u/0/#inbox"><i class="bi bi-send-fill"></i></a>
+            </div>
+            <div class="col-11">
+              <p>shrujankundgulwar47@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>codingwithshrujan.com</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://www.linkedin.com/in/shrujan-kundgulwar-a40645218/"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="col-11">
+              <p>linkedin</p>
+            </div>
+          </div>
+
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://github.com/shrujan9888"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="col-11">
+              <p>github</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#my-skills">My-Skills</a>
+        <div class="vr"></div>
+        <a href="#academics">Academics</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
